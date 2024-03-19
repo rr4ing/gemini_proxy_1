@@ -1,7 +1,7 @@
 {
   "lock": false,
   "imports": {
-    "@google/generative-ai": "npm:@google/generative-ai",
+    "@google/generative-ai": "npm:@google/generative-ai@^0.2.1",
     "zod": "https://deno.land/x/zod@v3.22.4/mod.ts",
     "custom_openai_api": "https://deno.land/x/custom_openai_api@1.2.0/mod.ts"
   }
