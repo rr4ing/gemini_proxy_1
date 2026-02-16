@@ -32,7 +32,7 @@ export const chatCompletionHandler: Deno.ServeHandler = async (req) => {
   }
 
   const genAI = new GoogleGenerativeAI(apiKey);
-  const model = genAI.getGenerativeModel({ model: "gemini-pro" });
+  const model = genAI.getGenerativeModel({ model: "gemini-3-flash-preview" });
   const chat = model.startChat({
     history: request.messages.map((message) => ({
       role: mapRole(message.role),
